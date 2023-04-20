@@ -1,7 +1,5 @@
 # Solidity-Mastery
 
-# SolidityMastery
-
 Welcome to Solidity-Mastery, a comprehensive learning project for mastering Solidity, the programming language for developing smart contracts on the Ethereum blockchain.
 
 ## Learning Categories
