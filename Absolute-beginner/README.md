@@ -1,4 +1,4 @@
-## Solidity Mastery: Absolute Beginner
+# Solidity Mastery: Absolute Beginner
 
 Welcome to Solidity Mastery, a comprehensive learning project for mastering Solidity, the programming language for developing smart contracts on the Ethereum blockchain. The goal of this section is to help you develop a strong foundation and understand your starting point before you begin with Solidity
 
