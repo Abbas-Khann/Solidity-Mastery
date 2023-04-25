@@ -84,3 +84,42 @@ By having each individual node store their own copy, it means there is:
 
 Because all nodes have equal power, there needs to be a mechanism for fairly deciding who can add blocks to the blockchain⬇️
 
+## Mining
+Before a block is added to the blockchain, it first needs to be validated. This is called mining. Each block must contain an answer to a complex mathematical problem that miners are trying to solve
+
+Valid block = block where the mathematical puzzle is solved
+
+The first miner to solve the puzzle :
+
+   1.Gets a reward for his effort 
+
+   2.Gets to add the block to his copy of the blockchain
+   
+Nodes then synchronize with that copy and reach a consensus about the present state of the blockchain.🔄
+
+How does the network of nodes in a blockchain system agrees on the validity of new blocks?
+
+## Consensus
+
+Consensus is the process by which the network of nodes in a blockchain system agrees on the validity of new blocks
+
+There are several consensus methods used in blockchain technology. Here are some of the most common ones:
+
+Proof-of-Work (PoW):
+
+Proof-of-Work (PoW) is the most popular consensus method used in the blockchain technology powering Bitcoin. In this algorithm, miners compete to solve complex mathematical problems to add new blocks to the blockchain. The first miner to solve the problem and add the block is rewarded with cryptocurrency. The process requires significant computational power and electricity, making it energy-intensive and slow.
+
+Proof-of-Stake (PoS):
+
+Proof-of-Stake (PoS) is another consensus method that requires participants to have a certain stake in the network. In this algorithm, validators are chosen to add new blocks based on the amount of cryptocurrency they hold. Validators are incentivized to act in the network's best interest because any malicious activity would harm their stake. PoS is faster, cheaper, and more energy-efficient than PoW.
+
+What happens when the block is added?
+
+When a block is added to the blockchain it cannot be changed.
+
+The block is closed and new blocks are created that chain with each other.
+
+## Summary
+
+
+Blockchain is a distributed, decentralized, immutable, and secure ledger that stores data in a continuously growing list of blocks that are linked together using cryptographic techniques. Each block contains data and a hash of the previous block, creating a tamper-proof chain. The blockchain is secured by a variety of cryptography concepts. Data is entered and updated by participants in the network who hold equal control, with each node keeping its own copy of the blockchain and constantly checking with other nodes to ensure everyone has the same record of data. Mining is the process by which blocks are validated and added to the blockchain, and consensus is the mechanism by which the network of nodes agrees on the validity of new blocks. The blockchain provides benefits such as reduced risks of fraud, no single point of failure, and decentralization and transparency, making it a valuable technology for various industries
