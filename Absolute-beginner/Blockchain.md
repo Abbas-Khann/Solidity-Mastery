@@ -40,35 +40,31 @@ Okay, so why is the blockchain “distributed”?
 
 ### DLT
 
-Blockchain uses DLT, DLT is a type of a database that can be shared, replicated and synchronized among a large number of participants who are spread across different geographical areas. A good analogy for DLT is a Google Doc. When you share a Google Doc with a group of people, the document is simply distributed instead of copied or transferred. This creates a decentralized distribution chain that gives everyone access to the document. 
+To understand blockchain, you first have to understand what a distributed ledger is. [Read here](https://github.com/Abbas-Khann/Solidity-Mastery/tree/main/Absolute-beginner#distributed-ledger-technologydlt) before you move on
 
-So a blockchain is simply a type of DLT that is :
+A blockchain is simply a type of DLT that is :
  
-  •Shared
-  •Replicated
-  •Synchronized
+  • Shared
+  • Replicated
+  • Synchronized
  
 among a large number of participants who are spread across the world
  
-It is a network of participants holding equal control. The purpose of a blockchain is to have a network of computers agree upon a common state of data
+It is a network of participants holding equal control that agree upon a common state of data
 
-Wait, who owns the blockchain?
+All the participant own the blockchain, it's decentralized! - There is no third party or central authority involved. And anyone can become a participant!
 
-All the participants! 
+Each participant holds a copy of that database and shares it with other participants. These participants are called nodes. 
 
-It's decentralized! - There is no third party or central authority involved
-
-And anyone can become a participant! Plain and simple. Any person or organization should be able to participate in this. No person or organization should be able to control this process
-
-Each participant holds a copy of that database and shares it with other participants. These participants are called nodes. So, how many copies are there and how is data entered?🤔
+So, how many copies are there and how is data entered?🤔
 
 There is not a single master copy of the blockchain.
 
 Each node💻 :
 
-   -keeps their own copy of the blockchain
+   - keeps their own copy of the blockchain
 
-   -constantly checks with other nodes to make sure everyone has the same record of data
+   - constantly checks with other nodes to make sure everyone has the same record of data
 
 To add a block all nodes must approve that their copy is the same as the copies of other nodes and reach a consensus.Data is entered & updated by the participants of the network.  All changes can be written & saved to all involved nodes only after approval by the majority. Nodes reach an agreement on what the blockchain looks like at any given moment.🤝
 
