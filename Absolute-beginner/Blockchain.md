@@ -32,9 +32,9 @@ The blockchain collects data and enters it into a block, like a cell in a spread
  
 This creates a chain of blocks that are linked together in a sequential and chronological order through a unique hash that is generated using the information contained within each block, including the hash of the previous block in the chain. What is a hash?
 
-Blockchain is secured by a variety of different cryptography concepts. Cryptography is the study of techniques that secure and protect data. Blockchain uses hashes to link the blocks together in the chain. Each block contains the hash of the previous block, creating a secure and tamper-proof link between them. 
+Blockchain is secured by a variety of different cryptography concepts. Blockchain uses hashes to link the blocks together in the chain. Each block contains the hash of the previous block, creating a secure and tamper-proof link between them. 
 
-A hash is a unique digital fingerprint that is created using a mathematical algorithm that converts input data of any size into a fixed-size output. The output is a unique string of characters that is representative of the input data. Even a small change in the input data would produce a completely different hash output.
+Read more about [Cryptography and hashes](github.com/Abbas-Khann/Solidity-Mastery/blob/main/Absolute-beginner/Cryptography.md#hashing)
 
 Okay, so why is the blockchain “distributed”?
 
