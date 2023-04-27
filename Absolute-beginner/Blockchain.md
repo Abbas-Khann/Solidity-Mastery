@@ -54,6 +54,8 @@ It is a network of participants holding equal control that agree upon a common s
 
 All the participant own the blockchain, it's decentralized! - There is no third party or central authority involved. And anyone can become a participant!
 
+### Nodes
+
 Each participant holds a copy of that database and shares it with other participants. These participants are called nodes. 
 
 So, how many copies are there and how is data entered?🤔
@@ -83,6 +85,8 @@ Because all nodes have equal power, there needs to be a mechanism for fairly dec
 ## Mining
 Before a block is added to the blockchain, it first needs to be validated. This is called mining. Each block must contain an answer to a complex mathematical problem that miners are trying to solve
 
+Read more about [mining](https://github.com/Abbas-Khann/Solidity-Mastery/blob/main/Absolute-beginner/Mining.md#mining)
+
 Valid block = block where the mathematical puzzle is solved
 
 The first miner to solve the puzzle :
@@ -99,15 +103,7 @@ How does the network of nodes in a blockchain system agrees on the validity of n
 
 Consensus is the process by which the network of nodes in a blockchain system agrees on the validity of new blocks
 
-There are several consensus methods used in blockchain technology. Here are some of the most common ones:
-
-Proof-of-Work (PoW):
-
-Proof-of-Work (PoW) is the most popular consensus method used in the blockchain technology powering Bitcoin. In this algorithm, miners compete to solve complex mathematical problems to add new blocks to the blockchain. The first miner to solve the problem and add the block is rewarded with cryptocurrency. The process requires significant computational power and electricity, making it energy-intensive and slow.
-
-Proof-of-Stake (PoS):
-
-Proof-of-Stake (PoS) is another consensus method that requires participants to have a certain stake in the network. In this algorithm, validators are chosen to add new blocks based on the amount of cryptocurrency they hold. Validators are incentivized to act in the network's best interest because any malicious activity would harm their stake. PoS is faster, cheaper, and more energy-efficient than PoW.
+Read more about [consensus and the consensus methods](https://github.com/Abbas-Khann/Solidity-Mastery/blob/main/Absolute-beginner/Consensus.md)
 
 What happens when the block is added?
 
