@@ -5,9 +5,13 @@ To understand how Bitcoin or Ethereum work, it's important to first understand t
 Here, we will explain the basics of blockchain technology and how it relates to cryptocurrencies. We'll discuss what blockchain is, how it works, the benefits it provides and much more. We'll also explore some common terms and concepts related to blockchain, such as distributed ledger, mining, and cryptography. Lets dive in!
 
 
-## What is the Blockchain?
+## What is the blockchain?
 
-A blockchain is just a chain of blocks that contains data. As a database, it stores data electronically in digital format. In its simplest form, a blockchain is a continuously growing list of data. That data is stored in blocks, and all those blocks are linked together. Think of a blockchain as a train🚆. A train that consists of multiple carriages connected in a line where each carriage contains some amount of data. So whats the purpose of a blockchain?
+A blockchain is just a chain of blocks that contains data. As a database, it stores data electronically in digital format. 
+
+In its simplest form, a blockchain is a continuously growing list of data. That data is stored in blocks, and all those blocks are linked together. 
+
+Think of a blockchain as a train🚆. A train that consists of multiple carriages connected in a line where each carriage contains some amount of data. 
 
 The purpose of a blockchain is to provide a:
 
@@ -29,20 +33,22 @@ The blockchain collects data and enters it into a block, like a cell in a spread
 2. A piece of information that links back to the previous block - hash
 
 ### Cryptography
- 
-This creates a chain of blocks that are linked together in a sequential and chronological order through a unique hash that is generated using the information contained within each block, including the hash of the previous block in the chain. What is a hash?
 
-Blockchain is secured by a variety of different cryptography concepts. Blockchain uses hashes to link the blocks together in the chain. Each block contains the hash of the previous block, creating a secure and tamper-proof link between them. 
+Blockchain is secured by a variety of different cryptography concepts. 
+
+Blockchain uses hashes to link the blocks together in the chain. Each block contains the hash of the previous block, creating a secure and tamper-proof link between them. 
+
+This creates a chain of blocks that are linked together in a sequential and chronological order through a unique hash that is generated using the information contained within each block, including the hash of the previous block in the chain. 
 
 Read more about [Cryptography and hashes](github.com/Abbas-Khann/Solidity-Mastery/blob/main/Absolute-beginner/Cryptography.md#hashing)
 
 Okay, so why is the blockchain “distributed”?
 
-### DLT
+### Distributed ledger
 
 To understand blockchain, you first have to understand what a distributed ledger is. [Read here](https://github.com/Abbas-Khann/Solidity-Mastery/tree/main/Absolute-beginner#distributed-ledger-technologydlt) before you move on
 
-A blockchain is simply a type of DLT that is :
+A blockchain is simply a type of DLT that is:
  
   • Shared
   • Replicated
@@ -52,11 +58,11 @@ among a large number of participants who are spread across the world
  
 It is a network of participants holding equal control that agree upon a common state of data
 
-All the participant own the blockchain, it's decentralized! - There is no third party or central authority involved. And anyone can become a participant!
+All the participant own the blockchain, it's decentralized! - There is no third party or central authority involved and anyone can become a participant!
 
 ### Nodes
 
-Each participant holds a copy of that database and shares it with other participants. These participants are called nodes. 
+Each participant holds a copy of the blockchain and shares it with other participants. These participants are called nodes. 
 
 So, how many copies are there and how is data entered?🤔
 
@@ -68,7 +74,11 @@ Each node💻 :
 
    - constantly checks with other nodes to make sure everyone has the same record of data
 
-To add a block all nodes must approve that their copy is the same as the copies of other nodes and reach a consensus.Data is entered & updated by the participants of the network.  All changes can be written & saved to all involved nodes only after approval by the majority. Nodes reach an agreement on what the blockchain looks like at any given moment.🤝
+To add a block all nodes must approve that their copy is the same as the copies of other nodes and reach a consensus.
+
+Data is entered & updated by the participants of the network.  All changes can be written & saved to all involved nodes only after approval by the majority. 
+
+Nodes reach an agreement on what the blockchain looks like at any given moment.🤝
 
 ### What are the benefits of a distributed network?
 
@@ -95,9 +105,7 @@ The first miner to solve the puzzle :
 
    2.Gets to add the block to his copy of the blockchain
    
-Nodes then synchronize with that copy and reach a consensus about the present state of the blockchain.🔄
-
-How does the network of nodes in a blockchain system agrees on the validity of new blocks?
+Nodes then synchronize with that copy but before, all nodes in the network need to agree on the validity of those new blocks which is why we have consensus
 
 ## Consensus
 
@@ -114,4 +122,10 @@ The block is closed and new blocks are created that chain with each other.
 ## Summary
 
 
-Blockchain is a distributed, decentralized, immutable, and secure ledger that stores data in a continuously growing list of blocks that are linked together using cryptographic techniques. Each block contains data and a hash of the previous block, creating a tamper-proof chain. The blockchain is secured by a variety of cryptography concepts. Data is entered and updated by participants in the network who hold equal control, with each node keeping its own copy of the blockchain and constantly checking with other nodes to ensure everyone has the same record of data. Mining is the process by which blocks are validated and added to the blockchain, and consensus is the mechanism by which the network of nodes agrees on the validity of new blocks. The blockchain provides benefits such as reduced risks of fraud, no single point of failure, and decentralization and transparency, making it a valuable technology for various industries
+Blockchain is a distributed, decentralized, immutable, and secure ledger that stores data in a continuously growing list of blocks that are linked together using cryptographic techniques. 
+
+Each block contains data and a hash of the previous block, creating a tamper-proof chain. The blockchain is secured by a variety of cryptography concepts. 
+
+Data is entered and updated by participants in the network who hold equal control, with each node keeping its own copy of the blockchain and constantly checking with other nodes to ensure everyone has the same record of data. 
+
+Mining is the process by which blocks are validated and added to the blockchain, and consensus is the mechanism by which the network of nodes agrees on the validity of new blocks. The blockchain provides benefits such as reduced risks of fraud, no single point of failure, and decentralization and transparency, making it a valuable technology for various industries
